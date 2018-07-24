@@ -114,9 +114,8 @@ The second table was pretty interesting. Again the smallest size, this time 1 KB
 
 ![Graph3](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/TCP-graph3.png)
 
-```
 The third table and graph is strange. The first size, 1 KB again, had the highest time and then each one after goes up and down with no real correlation. My best guess on this graph is that because I went every 5 values to save time, there could be more points in the middle that kind of level it out and make it more constant. Because the graph does make it look all over the place, but the numbers are actually quite similar, with the first being larger, but still comparable. So my conclusion is that they are supposed to be similar values, my first one might have just got messed up a tad.
-```
+
 
 # UDP
 
@@ -221,19 +220,20 @@ So does this data make sense? Well, my partner Jacob R.  got comparable data tha
 #### Problem 1 table and graph : 
 
 ![Graph1](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/UDP-graph1.png)
-	For latency in this experiment I got about constant. The graph makes it look pretty up and down, but each value was in between 0.6 - 0.8 ms so pretty constant. I think this is realistic because UDP is a datagram and sends the packet all at once and these data packages are pretty small so I think it is a good approximation. The TCP one was similar in this aspect, except it is a byte stream, so maybe the packages were just small so it seemed pretty constant.
+
+For latency in this experiment I got about constant. The graph makes it look pretty up and down, but each value was in between 0.6 - 0.8 ms so pretty constant. I think this is realistic because UDP is a datagram and sends the packet all at once and these data packages are pretty small so I think it is a good approximation. The TCP one was similar in this aspect, except it is a byte stream, so maybe the packages were just small so it seemed pretty constant.
 
 #### Problem 2 table and graph:
 
 ![Graph2](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/UDP-graph2.png)
 
-	We got a fairly linear graph and data points for the throughput. Each time the size got bigger, the throughput increased. We believe this is because of optimization for larger packets and having to break packets up into smaller portions. For TCP, we got a large jump, but then it decreased a little and evened out, so very different graphs.
+We got a fairly linear graph and data points for the throughput. Each time the size got bigger, the throughput increased. We believe this is because of optimization for larger packets and having to break packets up into smaller portions. For TCP, we got a large jump, but then it decreased a little and evened out, so very different graphs.
 
 #### Problem 3 table and graph:
 
 ![Graph3](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/UDP-graph3.png)
 
-	This graph is even more linear than problem 2. We think it is due to the same reasons, but just correlates more due to a bigger size of data, the 100MB being sent. The reason is the same for problem 2. In TCP, Jacob R. got a very different looking graph, but both of us had no correlation or association. 
+This graph is even more linear than problem 2. We think it is due to the same reasons, but just correlates more due to a bigger size of data, the 100MB being sent. The reason is the same for problem 2. In TCP, Jacob R. got a very different looking graph, but both of us had no correlation or association. 
 
 
 
