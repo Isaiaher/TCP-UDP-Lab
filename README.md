@@ -38,21 +38,27 @@ Also, the running it 10,000 and taking the average is the same for every problem
 We now can find the throughput by dividing the bits of the message, we got : 
 
 
-
 Size: 1kb took 2.489000e+00 ms 
 Throughput: 3.214142e+06 bits/second 
+
 Size: 2kb took 4.135000e-01 ms 
 Throughput: 3.869407e+07 bits/second 
+
 Size: 4kb took 7.624000e-01 ms 
 Throughput: 4.197272e+07 bits/second 
+
 Size: 8kb took 1.490000e+00 ms 
 Throughput: 4.295302e+07 bits/second 
+
 Size: 16kb took 2.738500e+00 ms 
 Throughput: 4.674092e+07 bits/second 
+
 Size: 32kb took 6.451400e+00 ms 
 Throughput: 3.968131e+07 bits/second 
+
 Size: 64kb took 1.292540e+01 ms 
 Throughput: 3.961193e+07 bits/second 
+
 Size: 128kb took 2.528160e+01 ms 
 Throughput: 4.050377e+07 bits/second 
 
@@ -64,35 +70,27 @@ We sent 100MB in iterations for certain message sizes from 1KB - 30KB. We chose 
 
 
 Size: 1kb need 100000 iterations and took 1.587500e-01 ms
-
 Throughput: 5.039370e+07 bits/second 
 
 Size: 2kb need 50000 iterations and took 3.499200e-01 ms
-
 Throughput: 4.572474e+07 bits/second 
 
 Size: 5kb need 20000 iterations and took 8.537500e-01 ms
-
 Throughput: 4.685212e+07 bits/second 
 
 Size: 10kb need 10000 iterations and took 1.737600e+00 ms
-
 Throughput: 4.604052e+07 bits/second 
 
 Size: 15kb need 6666 iterations and took 2.531053e+00 ms
-
 Throughput: 4.741110e+07 bits/second 
 
 Size: 20kb need 5000 iterations and took 3.501600e+00 ms
-
 Throughput: 4.569340e+07 bits/second 
 
 Size: 25kb need 4000 iterations and took 4.303000e+00 ms
-
 Throughput: 4.647920e+07 bits/second 
 
 Size: 30kb need 3333 iterations and took 5.079208e+00 ms
-
 Throughput: 4.725146e+07 bits/second 
 
 
