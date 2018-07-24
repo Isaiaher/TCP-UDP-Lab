@@ -98,26 +98,25 @@ Throughput: 4.725146e+07 bits/second
 So does this data make sense and correspond to my partner? Well I believe it makes sense because I used my own personal laptop which has a NIC speed of 1-Gbps and ran it to my server which was running on a computer in Morken 212 which also has a NIC speed of 1-Gbps. Compared to other people in the class, our times were very small, so very fast, so we aren’t sure if we messed up somewhere or if we just happened to have fast times.
 All of Jacob’s times will be slightly faster because he used a computer in Morken and had the same server as me on the desktop so he was wired in while I was using the wi-fi in there. 
 
-I have attached an excel file with graphs and charts and I will comment on them here:
-
 #### Problem 1 table and graph : 
 
 ![Graph1](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/TCP-graph1.png)
 
-	The first table is what I expected. Sending 1 byte was the fastest, but it wasn’t linear with bigger messages taking longer because of TCP overhead and that sending more bytes wasn’t making it go slower. The graph showed this with its ups and downs and nonlinear curve.
+The first table is what I expected. Sending 1 byte was the fastest, but it wasn’t linear with bigger messages taking longer because of TCP overhead and that sending more bytes wasn’t making it go slower. The graph showed this with its ups and downs and nonlinear curve.
 
 #### Problem 2 table and graph:
 
 ![Graph2](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/TCP-graph2.png)
 
-	The second table was pretty interesting. Again the smallest size, this time 1 KB, took the shortest amount have time, but it jumped straight up and worked its way up to a max. After this max, it slowly went down and leveled out to about constant. I don’t have much reasoning to this, but it shows that small data sets will send fast like the 1 KB, and medium sized will have a max, but it will have a leveling out point eventually.
+The second table was pretty interesting. Again the smallest size, this time 1 KB, took the shortest amount have time, but it jumped straight up and worked its way up to a max. After this max, it slowly went down and leveled out to about constant. I don’t have much reasoning to this, but it shows that small data sets will send fast like the 1 KB, and medium sized will have a max, but it will have a leveling out point eventually.
 
 #### Problem 3 table and graph:
 
 ![Graph3](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/TCP-graph3.png)
 
-	The third table and graph is strange. The first size, 1 KB again, had the highest time and then each one after goes up and down with no real correlation. My best guess on this graph is that because I went every 5 values to save time, there could be more points in the middle that kind of level it out and make it more constant. Because the graph does make it look all over the place, but the numbers are actually quite similar, with the first being larger, but still comparable. So my conclusion is that they are supposed to be similar values, my first one might have just got messed up a tad.
-
+```
+The third table and graph is strange. The first size, 1 KB again, had the highest time and then each one after goes up and down with no real correlation. My best guess on this graph is that because I went every 5 values to save time, there could be more points in the middle that kind of level it out and make it more constant. Because the graph does make it look all over the place, but the numbers are actually quite similar, with the first being larger, but still comparable. So my conclusion is that they are supposed to be similar values, my first one might have just got messed up a tad.
+```
 
 # UDP
 
