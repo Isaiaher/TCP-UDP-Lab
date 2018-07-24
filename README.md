@@ -102,13 +102,19 @@ I have attached an excel file with graphs and charts and I will comment on them 
 
 #### Problem 1 table and graph : 
 
+![Graph1](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/TCP-graph1.png)
+
 	The first table is what I expected. Sending 1 byte was the fastest, but it wasn’t linear with bigger messages taking longer because of TCP overhead and that sending more bytes wasn’t making it go slower. The graph showed this with its ups and downs and nonlinear curve.
 
 #### Problem 2 table and graph:
 
+![Graph2](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/TCP-graph2.png)
+
 	The second table was pretty interesting. Again the smallest size, this time 1 KB, took the shortest amount have time, but it jumped straight up and worked its way up to a max. After this max, it slowly went down and leveled out to about constant. I don’t have much reasoning to this, but it shows that small data sets will send fast like the 1 KB, and medium sized will have a max, but it will have a leveling out point eventually.
 
 #### Problem 3 table and graph:
+
+![Graph3](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/TCP-graph3.png)
 
 	The third table and graph is strange. The first size, 1 KB again, had the highest time and then each one after goes up and down with no real correlation. My best guess on this graph is that because I went every 5 values to save time, there could be more points in the middle that kind of level it out and make it more constant. Because the graph does make it look all over the place, but the numbers are actually quite similar, with the first being larger, but still comparable. So my conclusion is that they are supposed to be similar values, my first one might have just got messed up a tad.
 
@@ -214,13 +220,19 @@ So does this data make sense? Well, my partner Jacob R.  got comparable data tha
 3rd - Network Card differences. I have an Intel AC 7265 which can run at 867 Mbps, but was getting about 144.4 Mbps. Jacob R.’s computer was getting 72.2 Mbps. We know they weren’t actually running at this, but we believe it does explain some of our differences. For completeness, the Morken computers got 100.0 Mbps on its ethernet status. 
 
 #### Problem 1 table and graph : 
+
+![Graph1](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/UDP-graph1.png)
 	For latency in this experiment I got about constant. The graph makes it look pretty up and down, but each value was in between 0.6 - 0.8 ms so pretty constant. I think this is realistic because UDP is a datagram and sends the packet all at once and these data packages are pretty small so I think it is a good approximation. The TCP one was similar in this aspect, except it is a byte stream, so maybe the packages were just small so it seemed pretty constant.
 
 #### Problem 2 table and graph:
 
+![Graph2](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/UDP-graph2.png)
+
 	We got a fairly linear graph and data points for the throughput. Each time the size got bigger, the throughput increased. We believe this is because of optimization for larger packets and having to break packets up into smaller portions. For TCP, we got a large jump, but then it decreased a little and evened out, so very different graphs.
 
 #### Problem 3 table and graph:
+
+![Graph3](https://github.com/Isaiaher/TCP-UDP-Lab/blob/master/UDP-graph3.png)
 
 	This graph is even more linear than problem 2. We think it is due to the same reasons, but just correlates more due to a bigger size of data, the 100MB being sent. The reason is the same for problem 2. In TCP, Jacob R. got a very different looking graph, but both of us had no correlation or association. 
 
